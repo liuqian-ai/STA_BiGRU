@@ -1,0 +1,7 @@
+所需包：
+matplotlib==3.4.2
+numpy==1.19.2
+scikit-learn==1.0.1
+scipy==1.7.3
+torch==1.6.0
+torchvision==0.7.0
