@@ -105,7 +105,7 @@ if __name__ == '__main__':
         labels = torch.Tensor(labels)
         labels = labels.long()
 
-        kf = StratifiedKFold(n_splits=5, shuffle=True, random_state=m)
+        kf = StratifiedKFold(n_splits=5, shuffle=True, random_state=1)
         test_kflodCount = 1
         cfms = [0, 0, 0, 0, 0, 0, 0, 0, 0]
         aucs = []
